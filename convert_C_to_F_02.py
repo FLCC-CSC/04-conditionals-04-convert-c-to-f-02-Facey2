@@ -25,7 +25,8 @@ number_choice = int(input('Please choose from the above menu: '))
 temperature = float(input('Enter a temperature to convert: '))
 
 C_to_F = (temperature) * 9/5 + 32
-F_to_C = (temperature) - 32  * 5/9
+F_to_C = (temperature) * 5/9 - 32
+
 
 if number_choice == 1:
   print(f'\n{temperature} degrees Celsius is {C_to_F} degrees Fahrenheit.')
